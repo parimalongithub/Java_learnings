@@ -1,17 +1,26 @@
 public class multidimensional {
     public static void main(String[] args) {
-        int flats[][];
-        flats=new int[2][3];//syntax for 2d array
-        flats[0][0]=101;
-        flats[0][1]=102;
-        flats[0][2]=103;
-        flats[1][0]=201;
-        flats[1][1]=202;
-        flats[1][2]=203;       
-        System.out.println(flats[0][2]);
-        for(int x=0;x<flats.length;x++){
-            for(int j=0;j<flats[x].length;j++){
-                System.out.print(flats[x][j]);
+        //this how we can intiate 2d araay/multidimesional array
+        int multidimensional_araay[][];
+        multidimensional_araay=new int[2][3];
+
+
+
+        //this how we can assign value to the array
+        multidimensional_araay[0][0]=101;
+        multidimensional_araay[0][1]=102;
+        multidimensional_araay[0][2]=103;
+        multidimensional_araay[1][0]=201;
+        multidimensional_araay[1][1]=202;
+        multidimensional_araay[1][2]=203;       
+
+
+
+
+        //this how we can print multidimesional array
+        for(int x=0;x<multidimensional_araay.length;x++){
+            for(int j=0;j<multidimensional_araay[x].length;j++){
+                System.out.print(multidimensional_araay[x][j]);
                 System.out.print(" ");
                  }
         }

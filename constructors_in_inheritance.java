@@ -48,7 +48,8 @@ public class constructors_in_inheritance {
         //Base1 okk=new Base1();
         //derived1 okk =new derived1(4,3);
         childofderived c=new childofderived(1,2,3);
-        childofderived x =new childofderived();        
+        childofderived x =new childofderived(); 
+        System.out.println();       
     }
     
 }
