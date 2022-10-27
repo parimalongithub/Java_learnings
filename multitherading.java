@@ -1,4 +1,12 @@
 
+ 
+
+
+
+
+
+
+
 class Mytheread1 extends Thread{
     @Override
     public void run (){
@@ -20,6 +28,9 @@ class Mytheread2 extends Thread{
         System.out.println("Therad 2 is good");
         System.out.println("iam sad");
         i++;
+
+
+        
         }
 
     }

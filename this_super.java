@@ -4,6 +4,8 @@ class ok{
         return a;
  
     }
+
+    
     ok(int a){
         this.a=a;//this is how we use 'this' meathod
 
