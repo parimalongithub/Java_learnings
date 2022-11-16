@@ -59,6 +59,3 @@ public class default_methods {
     }
 }
 
-
-
-
