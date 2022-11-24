@@ -6,6 +6,7 @@ public class multidimensional {
 
 
 
+
         //this how we can assign value to the array
         multidimensional_araay[0][0]=101;
         multidimensional_araay[0][1]=102;
@@ -13,6 +14,8 @@ public class multidimensional {
         multidimensional_araay[1][0]=201;
         multidimensional_araay[1][1]=202;
         multidimensional_araay[1][2]=203;       
+
+
 
 
 
